@@ -1,0 +1,62 @@
+[
+{
+    "id": 1,
+    "image": "../assets/blue_wing.jpg",
+    "clicked": false
+},
+{
+    "id": 2,
+    "image": "../assets/cans.jpg",
+    "clicked": false
+},
+{
+    "id": 3,
+    "image": "../assets/coming_in.jpg",
+    "clicked": false
+},
+{
+    "id": 4,
+    "image": "../assets/greenhead.jpg",
+    "clicked": false
+},
+{
+    "id": 5,
+    "image": "../assets/harlquin.jpg",
+    "clicked": false
+},
+{
+    "id": 6,
+    "image": "../assets/party_on_the_marsh.jpg",
+    "clicked": false
+},
+{
+    "id": 7,
+    "image": "../assets/pintail.jpg",
+    "clicked": false
+},
+{
+    "id": 8,
+    "image": "../assets/redhead.jpg",
+    "clicked": false
+},
+{
+    "id": 9,
+    "image": "../assets/ringneck.jpg",
+    "clicked": false
+},
+{
+    "id": 10,
+    "image": "../assets/swams.jpg",
+    "clicked": false
+},
+{
+    "id": 11,
+    "image": "../assets/widgon.jpg",
+    "clicked": false
+},
+{
+    "id": 12,
+    "image": "../assets/woody.jpg",
+    "clicked": false
+}
+]

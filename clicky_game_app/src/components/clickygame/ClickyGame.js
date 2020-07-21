@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import PicDisplay from '../picdisplay/PicDisplay'
 import ScoreKeeper from '../scorekeeper/ScoreKeeper'
+import ducks from '../data/ducks.json'
 
 class ClickyGame extends Component {
     state = {
+        clickedPicids: [],
         score: 0,
         topscore: 0,
-        pic1: 0,
-        pic2: 0,
-        pic3: 0,
-        pic4: 0
+        status:""
     }
     updateValue = (event) => {
         const {name,value}=event.target
@@ -19,7 +18,9 @@ class ClickyGame extends Component {
         return (
             <div>
                 <ScoreKeeper scores={this.state}/>
-                <PicDisplay/>
+                <PicDisplay 
+                //shufflePics={this.shufflePics}
+                list = {ducks}/>
             </div>
         );
     }
